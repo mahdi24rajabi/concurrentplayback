@@ -105,7 +105,7 @@ fun VideoContainer(
                             if (paneSize.thirdPane > 1) {
                                 paneSize.copy(
                                     firstPane = paneSize.firstPane.plus(1),
-                                    thirdPane = paneSize.secondPane.minus(1)
+                                    thirdPane = paneSize.thirdPane.minus(1)
                                 )
                             } else {
                                 paneSize
